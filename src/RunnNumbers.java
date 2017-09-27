@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.reflect.*;
-public class runnNumbers
+public class RunnNumbers
 {
 	private static int howMuchToCount;
 	int nums[] = {3,5,15,20};
@@ -10,7 +10,7 @@ public class runnNumbers
 	
 	
 	
-	runnNumbers(int howMuch){
+	RunnNumbers(int howMuch){
 		this.howMuchToCount = howMuch;
 	}
 	
