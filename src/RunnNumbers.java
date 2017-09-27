@@ -4,7 +4,8 @@ public class RunnNumbers
 {
 	private static int howMuchToCount;
 	int nums[] = {3,5,15,20};
-	String text[] = {"Fizz", "Fuzz", "FizzFuzz", "Buzz"};
+	String text[] = {"Fizz", "Fuzz", "dizz", "Buzz"};
+	String output ="";
 	
 	
 	
@@ -27,7 +28,7 @@ public class RunnNumbers
 			{ 
 			if(i%nums[b]==0)
 				{
-				System.out.println(text[b]);
+				System.out.println(output+=text[b]);
 				}
 			
 			}
